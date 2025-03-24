@@ -1,7 +1,7 @@
-# bai2_he_quan_tri_csdl
+![Screenshot 2025-03-23 220439](https://github.com/user-attachments/assets/25be0615-38d3-464d-8861-31ab2ac0776d)# bai2_he_quan_tri_csdl
 Bài tập 02 của sv: K225480106016 - Hứa Thị Thanh Hiền - Môn Hệ quản trị csdl 
 Ảnh 1:  
-Nhấp chuột phải vào Cơ sở dữ liệu trongtrong SQL Server Management Studio (SSMS) → Chọn Cơ sở dữ liệu mới . . .→ Chọn Cơ sở dữ liệu mới... để tạo cơ sở dữ liệu mới.  
+Nhấp chuột phải vào Databases → Chọn New Database... để tạo cơ sở dữ liệu mới    
 ![Screenshot 2025-03-23 214553](https://github.com/user-attachments/assets/b0233f69-5cfb-4fa5-8064-94c1211cdf2f)  
 
 Ảnh 2:  
@@ -28,9 +28,44 @@ Chọn Refresh để cập nhật danh sách bảng, giúp hiển thị các b�
 ![Screenshot 2025-03-23 215229](https://github.com/user-attachments/assets/09da4110-c117-4438-b14b-eba83c56750d)  
 
 Ảnh 7:  
-Nhập tên bảng là Lop  
-Sau khi nhập xong, có thể nhấn OK để xác nhận hoặc Cancel để hủy thao tác  
+Nhập tên bảng là Lop vào hộp thoại Choose Name và nhấn OK để xác nhận
 ![Screenshot 2025-03-23 215338](https://github.com/user-attachments/assets/9c38be85-af1f-4884-b446-96cb70bde46d)  
+
+Ảnh 8:  
+Nhập tên bảng là GVCN vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 215521](https://github.com/user-attachments/assets/531c81a8-dda0-4beb-80b4-45ea30bbdb37)  
+
+Ảnh 9:   
+Nhập tên bảng là LopSV vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 215830](https://github.com/user-attachments/assets/4c8586dd-3ef9-4b48-8371-cb9fa509ab95)  
+
+Ảnh 10:  
+Nhập tên bảng là GiaoVien vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 220028](https://github.com/user-attachments/assets/e9cea1ee-7a2c-4dae-bd3c-c3f2351a5743)  
+
+Ảnh 11:  
+Nhập tên bảng là BoMon vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 220159](https://github.com/user-attachments/assets/5e83143e-5cff-45f1-a81b-7cada1439dde)  
+
+Ảnh 12:  
+Nhập tên bảng là Khoa vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 220317](https://github.com/user-attachments/assets/5651637d-4a32-4fa0-aa26-7d522abafe6c)  
+
+Ảnh 13:  
+Nhập tên bảng là MonHoc vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 220439](https://github.com/user-attachments/assets/1e6e5972-8226-400a-af1a-96b7aefb4238)  
+
+Ảnh 14:  
+Nhập tên bảng là LopHP vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 220637](https://github.com/user-attachments/assets/4c4cc4d0-eee3-484b-b80e-508954a6dd68)  
+
+Ảnh 15:  
+Nhập tên bảng là DKMH vào hộp thoại Choose Name và nhấn OK để xác nhận.  
+![Screenshot 2025-03-23 220840](https://github.com/user-attachments/assets/730c4933-c342-4bf6-b36a-604dc8987bea)  
+
+Ảnh 16:  
+
+
 
 
 
