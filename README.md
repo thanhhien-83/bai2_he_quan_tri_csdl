@@ -18,8 +18,19 @@ Chọn cột masv → Nhấn vào biểu tượng khóa trên thanh công cụ �
 
 Ảnh 5: 
 Sau khi tạo bảng, một hộp thoại yêu cầu nhập bảng tên sẽ xuất hiện.
-Người dùng nhập tên Sinhvien vào ô Nhập tên cho bảng .
+Nhập tên Sinhvien vào ô Nhập tên cho bảng .
 Nhấn OK để xác nhận.  
 ![Screenshot 2025-03-23 215205](https://github.com/user-attachments/assets/159b24b9-1bee-43cb-bde6-25e65ce94eda)   
+
+Ảnh 6:  
+Chuột phải vào Tables trong cơ sở dữ liệu QLSV.  
+Chọn Refresh để cập nhật danh sách bảng, giúp hiển thị các bảng mới tạo hoặc thay đổi  
+![Screenshot 2025-03-23 215229](https://github.com/user-attachments/assets/09da4110-c117-4438-b14b-eba83c56750d)  
+
+Ảnh 7:  
+Nhập tên bảng là Lop  
+Sau khi nhập xong, có thể nhấn OK để xác nhận hoặc Cancel để hủy thao tác  
+![Screenshot 2025-03-23 215338](https://github.com/user-attachments/assets/9c38be85-af1f-4884-b446-96cb70bde46d)  
+
 
 
