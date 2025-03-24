@@ -1,4 +1,4 @@
-![Screenshot 2025-03-23 220439](https://github.com/user-attachments/assets/25be0615-38d3-464d-8861-31ab2ac0776d)# bai2_he_quan_tri_csdl
+# bai2_he_quan_tri_csdl
 Bài tập 02 của sv: K225480106016 - Hứa Thị Thanh Hiền - Môn Hệ quản trị csdl 
 Ảnh 1:  
 Nhấp chuột phải vào Databases → Chọn New Database... để tạo cơ sở dữ liệu mới    
