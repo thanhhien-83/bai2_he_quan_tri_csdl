@@ -28,7 +28,7 @@ Chọn Refresh để cập nhật danh sách bảng, giúp hiển thị các b�
 ![Screenshot 2025-03-23 215229](https://github.com/user-attachments/assets/09da4110-c117-4438-b14b-eba83c56750d)  
 
 Ảnh 7:  
-Nhập tên bảng là Lop vào hộp thoại Choose Name và nhấn OK để xác nhận
+Nhập tên bảng là Lop vào hộp thoại Choose Name và nhấn OK để xác nhận  
 ![Screenshot 2025-03-23 215338](https://github.com/user-attachments/assets/9c38be85-af1f-4884-b446-96cb70bde46d)  
 
 Ảnh 8:  
