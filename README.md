@@ -1,4 +1,4 @@
-# bai2_he_quan_tri_csdl
+![Screenshot 2025-03-24 182419](https://github.com/user-attachments/assets/e4f4586c-48ac-4f7a-966b-3e3c4dbde5cd)# bai2_he_quan_tri_csdl
 Bài tập 02 của sv: K225480106016 - Hứa Thị Thanh Hiền - Môn Hệ quản trị csdl  
 Ảnh 1:  
 Nhấp chuột phải vào Databases → Chọn New Database... để tạo cơ sở dữ liệu mới    
@@ -166,15 +166,37 @@ Mở cửa sổ thiết lập khóa ngoại.
 ![Screenshot 2025-03-23 230734](https://github.com/user-attachments/assets/5b25d1da-9d1e-4e66-934f-67ddf022fa18)  
 
 Ảnh 31:  
-Chọn cơ sở dữ liệu QLSV để thao tác.  
+Chọn cơ sở dữ liệu QLSV để thao tác.    
 Viết câu lệnh SQL để tạo bảng SinhVienvới các cột:  
 • maSV(kiểu INT, khóa chính PRIMARY KEY).  
 • hoTen(kiểu NVARCHAR(100), ràng buộc NOT NULL).  
 • ngaySinh(kiểu DATE, ràng buộc NOT NULL).  
 Chạy lệnh SQL bằng cách nhấn nút Execute.  
 Kiểm tra kết quả trong phần Messages, xác nhận rằng lệnh đã thực hiện thành công với thông báo"Commands completed successfully."  
-![Screenshot 2025-03-24 175305](https://github.com/user-attachments/assets/5b6c2643-1c5e-4568-ac97-fc0242e5141f)
+![Screenshot 2025-03-24 175305](https://github.com/user-attachments/assets/5b6c2643-1c5e-4568-ac97-fc0242e5141f)  
 
+Ảnh 32:  
+• Tạo cơ sở dữ liệuQLSV bằng SQL lệnh:  
+• Tệp chính nghĩa tại đường dẫn :Tệp chính định nghĩa ( .mdf) tại đường dẫn D:\Học Tập\Hệ quản trị cơ sở dữ liệu\QLSV.mdf:  
+Kích thước ban đầu:10MB  
+Kích thước tối đa:100MB  
+Tăng trưởng:10%  
+• Nhật ký tệp định nghĩa ( .ldf) tại đường dẫn D:\Học Tập\Hệ quản trị cơ sở dữ liệu\QLSV_log.ldf:  
+Kích thước ban đầu:5MB  
+Kích thước tối đa:50MB  
+Tăng trưởng:5MB  
+• Thực hiện lệnh SQL bằng cách nhấn Execute, kết quả sẽ hiển thị trong Messagesthông báo "Commands completed successfully.", xác nhận việc tạo cơ sở dữ liệu thành công.  
+![Screenshot 2025-03-24 180408](https://github.com/user-attachments/assets/ce252182-ee20-42ce-bad6-c433317e3481)  
+
+Ảnh 33: 
+Chọn cơ sở dữ liệu QLSV để thao tác.  
+Tạo bảngKhoa với các cột:  
+maKhoa(kiểu CHAR(10), khóa chính PRIMARY KEY).  
+Thực hiện lệnh SQL bằng cách nhấn Execute  
+tenKhoa(kiểu NVARCHAR(100), ràng buộc NOT NULL).
+Kiểm tra bảngKhoa trong Object Explorer :
+Đã xuất hiện bảng dbo.Khoatrong danh sách Tablescủa cơ sở dữ liệu QLSV.
+![Screenshot 2025-03-24 182522](https://github.com/user-attachments/assets/b85d3414-aa65-4136-8aa3-68e64dab47f2)
 
 
 
