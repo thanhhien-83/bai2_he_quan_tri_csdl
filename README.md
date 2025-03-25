@@ -64,6 +64,40 @@ Nhập tên bảng là DKMH vào hộp thoại Choose Name và nhấn OK để x
 ![Screenshot 2025-03-23 220840](https://github.com/user-attachments/assets/730c4933-c342-4bf6-b36a-604dc8987bea)  
 
 Ảnh 16:  
+Chọn Kiểm tra ràng buộc từ menu.  
+Trong hộp thoại Check Constraints , nhấn Add để thêm nút buộc mới.  
+Nhập biểu thức kiểm tra vào ô Expression :  
+Đây là điều kiện đảm bảo giá trị của HK nằm trong khoảng từ 0 đến 3  
+![Screenshot 2025-03-23 221743](https://github.com/user-attachments/assets/5589d6cd-ca59-4fd7-b70b-790eaa141d56)  
+
+Ảnh 17:  
+Chọn Kiểm tra ràng buộc từ menu.  
+Nhấn Add để thêm một lệnh xóa mới.  
+Điều này đảm bảo rằng giá trị của STC chỉ có thể nằm trong khoảng từ 1 đến 6  
+![Screenshot 2025-03-23 222220](https://github.com/user-attachments/assets/6669b52c-23c9-4f93-830a-5877736a007d)  
+
+Ảnh 18:  
+Chọn Kiểm tra ràng buộc từ menu  
+Điều này đảm bảo giá trị của HK chỉ có thể nằmchỉ có thể nằm trong khoảng từ 1 đến 3  
+![Screenshot 2025-03-23 222414](https://github.com/user-attachments/assets/6721bc19-8772-497d-8feb-963f74be5474)  
+
+Ảnh 19:  
+Chọn kiểm tra ràng buộc  
+Điều này đảm bảo rằng giá trị của diemtp chỉ có thể nằm trong khoảng từ 1 đến 10  
+![Screenshot 2025-03-23 222643](https://github.com/user-attachments/assets/8bbdaf92-abec-4c3b-8832-1e444ae3fcc5)  
+
+Ảnh 20:  
+Điều này đảm bảo rằng giá trị của diemthi chỉ có thể nằm trong khoảng từ 1 đến 10  
+![Screenshot 2025-03-23 222749](https://github.com/user-attachments/assets/b5353053-f872-466d-a990-29f8fd03432a)  
+
+Ảnh 21:  
+Đảm bảo rằng giá trị của phantramthi luôn nằm trong khoảng 0 đến 100.  
+Tránh nhập sai dữ liệu, ví dụ như âm thanh hoặc lhoặc lớn hơn 100%.  
+![Screenshot 2025-03-23 222927](https://github.com/user-attachments/assets/79465e2b-b7f9-4dfe-a1a7-8f46179564f2)  
+
+Ảnh 22: 
+
+
 
 
 
