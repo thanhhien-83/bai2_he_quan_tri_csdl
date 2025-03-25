@@ -196,7 +196,63 @@ Thực hiện lệnh SQL bằng cách nhấn Execute
 tenKhoa(kiểu NVARCHAR(100), ràng buộc NOT NULL).
 Kiểm tra bảngKhoa trong Object Explorer :
 Đã xuất hiện bảng dbo.Khoatrong danh sách Tablescủa cơ sở dữ liệu QLSV.
-![Screenshot 2025-03-24 182522](https://github.com/user-attachments/assets/b85d3414-aa65-4136-8aa3-68e64dab47f2)
+![Screenshot 2025-03-24 182419](https://github.com/user-attachments/assets/ed40d986-85ce-4dd1-ad72-a1d4ecca019a)
+
+Ảnh 34:  
+Tạo bảng BoMon với liên maKhoa kết ngoại khóa Khoa(maKhoa), có thể ON DELETE CASCADEtự động xóa khi Khoa bị xóa. Lệnh chạy thành công.  
+![Screenshot 2025-03-24 182522](https://github.com/user-attachments/assets/a6f217fe-69a1-4db7-a370-3afde1b58f09)  
+
+Ảnh 35:  
+Tạo bảng GiaoVien với khóa chính maGV và khóa ngoại maBM tham chiếu BoMon(maBM)  
+Thực hiện lệnh SQL bằng cách nhấn Execute để chạy.  
+![Screenshot 2025-03-24 182659](https://github.com/user-attachments/assets/19e8f954-8277-4c16-a39c-a26bf38f5a54)  
+
+Ảnh 36:  
+Tạo bảng SinhVien với khoá chính là masv.  
+Thực hiện lệnh SQL bằng cách nhấn Execute để chạy. 
+Làm mới (Refresh) danh sách bảng trongtrong Object Explorer.  
+![Screenshot 2025-03-24 182727](https://github.com/user-attachments/assets/803a1148-3493-459f-a6cb-f80cfee1c4f7)  
+
+Ảnh 37:  
+Tạo bảng Lop với khoá chính là maLop.   
+Nhấn Execute để chạy.  
+Làm mới (Refresh) danh sách bảng trongtrong Object Explorer.  
+![Screenshot 2025-03-24 182814](https://github.com/user-attachments/assets/1b0ca933-deff-4bca-8741-5ee934043936)  
+
+Ảnh 38:  
+Tạo bảng GVCN.  
+Khóa chính: Kết hợp 3 cột maLop, hanmagv, HK để đảm bảo tính duy nhất.  
+![Screenshot 2025-03-24 182853](https://github.com/user-attachments/assets/dc0fdfac-f71d-48fe-a7df-a7fa16173a13)  
+
+Ảnh 39:  
+Tạo bảng LopSV.  
+Khóa chính: maLopvà maSV kết hợp để đảm bảo mỗi sinh viên chỉ thuộc một lớp duy nhất.  
+Nhấn Execute để chạy.  
+Làm mới (Refresh) danh sách bảng trongtrong Object Explorer.  
+![Screenshot 2025-03-24 182935](https://github.com/user-attachments/assets/29226b5c-7869-49a9-a601-8cc677b17c0a)  
+
+Ảnh 40: 
+Tạo bảng MonHoc.  
+Khóa chính: mamonlà mã môn học duy nhất.  
+Ràng buộc CHECK : STC > 0đảm bảo số tín hiệu chỉ lớn hơn 0.  
+![Screenshot 2025-03-24 183011](https://github.com/user-attachments/assets/e2e29487-9a89-4845-b50a-7e3336c2ef61)  
+
+Ảnh 41:  
+Tạo bảng LopHP.  
+Khóa chính: maLopHP là mã lớp học phần duy nhất.  
+Ràng buộc khóa ngoại lệ (FOREIGN KEY) :  
+maMon tham chiếu MonHoc(mamon), có ON DELETE CASCADE , nghĩa là nếu xóa môn học thì tất cả các lớp học phần liên quan cũng bị xóa.  
+maGV tham chiếu GiaoVien(magv), có ON DELETE SET NULL , nghĩa là nếu xóa học viên thì `mamaGVtrong phần học của lớp sẽ thành công NULL.  
+![Screenshot 2025-03-24 183111](https://github.com/user-attachments/assets/4f9ab2c9-1b2b-4532-a94d-44e85c8563a9)  
+
+Ảnh 42:  
+Tạo bảng DKMH.  
+Khoá chính: maLopHP, maSV đảm bảo mỗi sinh viên chỉ có một lần đăng ký duy nhất cho một phần học sinh.  
+![Screenshot 2025-03-24 183155](https://github.com/user-attachments/assets/9996d162-9c07-42b5-a4c9-a4edec642e9f)
+
+
+
+
 
 
 
