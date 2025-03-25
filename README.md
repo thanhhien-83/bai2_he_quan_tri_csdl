@@ -95,6 +95,22 @@ Chọn kiểm tra ràng buộc
 ![Screenshot 2025-03-23 222927](https://github.com/user-attachments/assets/79465e2b-b7f9-4dfe-a1a7-8f46179564f2)  
 
 Ảnh 22: 
+Thêm khóa ngoại lệ (FK_GVCN_malop)vớicột liên kết malopcủa bảng GVCNvới maloptrong bảng Lop. 
+  
+![Screenshot 2025-03-23 224140](https://github.com/user-attachments/assets/7218aa86-d5f3-44f1-90ea-5e87cdf913c2)  
+
+Ảnh 23:  
+Mở cửa sổ mối quan hệ khóa ngoại.  
+Đặt tên FK_GVCN_magv  
+Chọn bảng chính ( GiaoVien) và bảng phụ ( GVCN).  
+Liên kết chính cột khóa ( magv) với cột tương ứng trong bảng phụ.  
+Nhấn OK để lưu thiết lập  
+![Screenshot 2025-03-23 224439](https://github.com/user-attachments/assets/f277f6a5-f62a-484c-b0ef-778e2431cb16)  
+
+Ảnh 24:  
+  
+
+
 
 
 
