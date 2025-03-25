@@ -108,7 +108,65 @@ Nhấn OK để lưu thiết lập
 ![Screenshot 2025-03-23 224439](https://github.com/user-attachments/assets/f277f6a5-f62a-484c-b0ef-778e2431cb16)  
 
 Ảnh 24:  
-  
+Thiết lập quan hệ khóa ngoại giữa hai bảng: Lop (bảng chính) và LopSV (bảng có khóa ngoại).  
+ • Khóa ngoại FK_LopSV_malop được tạo, liên kết cột malop giữa hai bảng.  
+ • Các tùy chọn ràng buộc:  
+ • Enforce Foreign Key Constraint: Được bật.  
+ • Delete Rule: No Action (không xóa bản ghi liên quan).  
+ • Update Rule: Cascade (cập nhật theo khi giá trị khóa chính thay đổi)  
+![Screenshot 2025-03-23 225031](https://github.com/user-attachments/assets/91eaba1c-c14a-495e-96f4-34ffdbe84f9d)  
+
+Ảnh 25:  
+Mở cửa sổ thiết lập khóa ngoại.  
+ • Đặt tên FK_GiaoVien_BoMon.  
+ • Chọn bảng chính BoMon, bảng phụ GiaoVien.  
+ • Liên kết cột mabm giữa hai bảng.  
+ • Chọn Delete Rule: No Action, Update Rule: Cascade.  
+ • Nhấn OK để lưu  
+![Screenshot 2025-03-23 225839](https://github.com/user-attachments/assets/d3a1048f-ab60-4065-b14a-224e6bf66189)  
+
+Ảnh 26:  
+Mở cửa sổ thiết lập khóa ngoại.  
+ • Đặt tên FK_BoMon_makhoa.  
+ • Chọn bảng chính Khoa, bảng phụ BoMon.  
+ • Liên kết cột makhoa giữa hai bảng.  
+ • Nhấn OK để lưu.  
+![Screenshot 2025-03-23 230058](https://github.com/user-attachments/assets/7aed1540-be9f-46a8-9f2a-0b8f7b38f3c6)  
+
+Ảnh 27:  
+• Mở cửa sổ thiết lập khóa ngoại.  
+• Đặt tên FK_LopHP_mamon.  
+• Chọn bảng chính MonHoc, bảng phụ LopHP.  
+• Liên kết cột mamon giữa hai bảng.  
+• Nhấn OK để lưu.  
+![Screenshot 2025-03-23 230254](https://github.com/user-attachments/assets/155243e8-ab82-42a8-aecc-30490a301f21)  
+
+Ảnh 28:  
+• Mở cửa sổ thiết lập khóa ngoại.  
+• Đặt tên FK_LopHP_magv.  
+• Chọn bảng chính GiaoVien, bảng phụ LopHP.  
+• Liên kết cột magv giữa hai bảng.  
+• Nhấn OK để lưu.  
+![Screenshot 2025-03-23 230421](https://github.com/user-attachments/assets/891aeb4d-c27f-4c38-805a-89d4fbdc79cf)  
+
+Ảnh 29:  
+• Tạo khóa ngoại FK_DKMH_malophp.  
+• Chọn bảng chính LopHP, bảng phụ DKMH.  
+• Liên kết cột malophp giữa hai bảng.  
+• Thiết lập ràng buộc No Action khi xóa, Cascade khi cập nhật.  
+• Nhấn OK để lưu.  
+![Screenshot 2025-03-23 230619](https://github.com/user-attachments/assets/0db9b81b-de4d-4c23-810a-f30a2d820bac)  
+
+Ảnh 30:  
+• Tạo khóa ngoại FK_DKMH_masv.  
+• Chọn bảng chính Sinhvien, bảng phụ DKMH.  
+• Liên kết cột masv giữa hai bảng.  
+• Thiết lập ràng buộc No Action khi xóa, Cascade khi cập nhật.  
+• Nhấn OK để lưu.  
+![Screenshot 2025-03-23 230734](https://github.com/user-attachments/assets/5b25d1da-9d1e-4e66-934f-67ddf022fa18)  
+
+Ảnh 31:  
+![Screenshot 2025-03-24 175305](https://github.com/user-attachments/assets/5b6c2643-1c5e-4568-ac97-fc0242e5141f)
 
 
 
