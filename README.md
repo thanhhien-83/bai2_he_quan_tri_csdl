@@ -91,8 +91,7 @@ Chọn kiểm tra ràng buộc
 ![Screenshot 2025-03-23 222749](https://github.com/user-attachments/assets/b5353053-f872-466d-a990-29f8fd03432a)  
 
 Ảnh 21:  
-Đảm bảo rằng giá trị của phantramthi luôn nằm trong khoảng 0 đến 100.  
-Tránh nhập sai dữ liệu, ví dụ như âm thanh hoặc lhoặc lớn hơn 100%.  
+Đảm bảo rằng giá trị của phantramthi luôn nằm trong khoảng 0 đến 100.   
 ![Screenshot 2025-03-23 222927](https://github.com/user-attachments/assets/79465e2b-b7f9-4dfe-a1a7-8f46179564f2)  
 
 Ảnh 22: 
