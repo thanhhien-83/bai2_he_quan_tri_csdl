@@ -29,7 +29,7 @@ HÌNH THỨC LÀM BÀI:
 
 DEADLINE: 23H59 NGÀY 30/03/2025
 
----------------------- hết bài tập 3-------------------------------------------
+---------------------- hết bài tập 3-------------------------------------------  
 Ảnh 1:  
 Chỉnh sửa bảng DKMH. id_dk là khóa chính   
 ![Screenshot 2025-03-29 143518](https://github.com/user-attachments/assets/3aa3bd02-db78-4185-a1e8-349cf706f985)  
@@ -41,3 +41,7 @@ Thêm khóa ngoại, đặt tên FK_Diem_id_dk.
 Chọn Primary key table: DKMH (id_dk), Foreign key table: Diem (id_dk).  
 Nhấn OK và lưu.  
 ![Screenshot 2025-03-29 143656](https://github.com/user-attachments/assets/f9fbab9a-65d6-4bc4-86d8-3f168d2bca70)  
+
+Ảnh 3:  
+
+![Screenshot 2025-03-29 143713](https://github.com/user-attachments/assets/19c7eee2-c9d3-4648-b498-aff74f517a7f)
