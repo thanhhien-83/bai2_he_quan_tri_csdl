@@ -128,24 +128,64 @@ Nhấn OK để lưu thay đổi.
 Ở phần Specify how scripts should be saved:  
 Chọn Save as script file  
 Nhấn Browse để chọn thư mục lưu file  
-Đặt tên file là bai_tap_3_data.sql  
+Đặt tên file là bai_tap_3_schema.sql 
 ![Screenshot 2025-03-29 154924](https://github.com/user-attachments/assets/7830a5be-b8ca-4845-986c-630966e7b4a6)  
 
 Ảnh 19: 
 Chọn Next  
-![Screenshot 2025-03-29 154949](https://github.com/user-attachments/assets/de69ef7b-5b25-4eb6-a945-f9b307c762e0)
+![Screenshot 2025-03-29 154949](https://github.com/user-attachments/assets/de69ef7b-5b25-4eb6-a945-f9b307c762e0)  
 
 Ảnh 20:  
 Chọn Finish để hoàn tất  
-![Screenshot 2025-03-29 155109](https://github.com/user-attachments/assets/3b09ea95-c29c-4173-b1dd-d98f2cc666e9)
+![Screenshot 2025-03-29 155109](https://github.com/user-attachments/assets/3b09ea95-c29c-4173-b1dd-d98f2cc666e9)  
 
 Ảnh 21:  
-![Screenshot 2025-03-29 155238](https://github.com/user-attachments/assets/e5e05639-d1d4-434b-bee6-3a0eda3abea6)
+Chọn Tasks -> Generate Scripts, sau đó vào phần Advanced và chọn Check Data only để tạo file bai_tap_3_data.sql, chỉ chứa dữ liệu đã nhập demo vào cơ sở dữ liệu.  
+![Screenshot 2025-03-29 155238](https://github.com/user-attachments/assets/e5e05639-d1d4-434b-bee6-3a0eda3abea6)  
 
+Ảnh 22:  
+Chọn Next.  
+![Screenshot 2025-03-29 155303](https://github.com/user-attachments/assets/9d0ece53-f12f-4962-a7dc-2b2cf17d0e34)
 
+Ảnh 23:  
+Chọn Next. 
+![Screenshot 2025-03-29 155326](https://github.com/user-attachments/assets/3224cecb-1e28-476e-84a1-2c9bd886de9b)
 
+Ảnh 24:  
+Cấu hình xuất file SQL chỉ chứa dữ liệu  
+Ở bước Set Scripting Options, nhấn Advanced.  
+Trong danh sách Options, tìm đến mục:  
+Types of data to script → Chọn Data only  
+Nhấn OK để lưu thay đổi.  
+![Screenshot 2025-03-29 155406](https://github.com/user-attachments/assets/81b79c3f-44a1-4a44-baa5-13568f323735)  
 
+Ảnh 25:  
+Ở phần Specify how scripts should be saved:  
+Chọn Save as script file  
+Nhấn Browse để chọn thư mục lưu file  
+Đặt tên file là bai_tap_3_data.sql  
+![Screenshot 2025-03-29 155502](https://github.com/user-attachments/assets/debf7520-7677-43f2-ac17-eba43c0149d3)  
 
+Ảnh 25:  
+Chọn Next nhé.  
+![Screenshot 2025-03-29 155523](https://github.com/user-attachments/assets/dc3db34d-5c5c-4d55-b392-c10f7ecc843f)
+
+Ảnh 26:  
+Chọn Finish.  
+![Screenshot 2025-03-29 155550](https://github.com/user-attachments/assets/38ddbed8-3a74-4d86-9767-801e766ee086)
+
+Ảnh 27:  
+Tạo một sơ đồ cơ sở dữ liệu mới trong SQL.  
+![Screenshot 2025-03-29 155731](https://github.com/user-attachments/assets/18c49a08-828a-44b6-9424-14faf92766ef)  
+
+Ảnh 28:  
+Add tất cả các bảng.  
+![Screenshot 2025-03-29 155915](https://github.com/user-attachments/assets/9d774248-7a17-4ede-b632-660e384fe6b6)  
+
+Ảnh 29:  
+Bảng trong sơ đồ cơ sở dữ liệu thường thể hiện các mối quan hệ giữa các bảng khác nhau.  
+ Mỗi bảng có thể có các liên kết (khóa ngoại) với các bảng khác, cho phép thiết lập mối quan hệ giữa các tập dữ liệu  
+![Screenshot 2025-03-29 160031](https://github.com/user-attachments/assets/082fc416-c5f8-47bf-9b5d-70372f078315)
 
 
 
