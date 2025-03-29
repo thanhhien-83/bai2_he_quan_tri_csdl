@@ -43,5 +43,38 @@ Nhấn OK và lưu.
 ![Screenshot 2025-03-29 143656](https://github.com/user-attachments/assets/f9fbab9a-65d6-4bc4-86d8-3f168d2bca70)  
 
 Ảnh 3:  
+hao tác tạo khóa ngoại FK_DKMH_maLopHP trong SQL Server Management Studio (SSMS) giữa bảng DKMH và LopHP. Thực hiện như sau:  
+Mở Table Designer cho bảng DKMH, vào Relationships.  
+Thêm khóa ngoại, đặt tên FK_DKMH_maLopHP.  
+Chọn Primary key table: LopHP (maLopHP), Foreign key table: DKMH (maLopHP).  
+Nhấn OK và lưu.  
+![Screenshot 2025-03-29 143713](https://github.com/user-attachments/assets/19c7eee2-c9d3-4648-b498-aff74f517a7f)  
 
-![Screenshot 2025-03-29 143713](https://github.com/user-attachments/assets/19c7eee2-c9d3-4648-b498-aff74f517a7f)
+Ảnh 4:  
+Thao tác tạo khóa ngoại FK_DKMH_maSV trong SQL Server Management Studio (SSMS) giữa bảng DKMH và SinhVien. Thực hiện như sau:  
+Mở Table Designer cho bảng DKMH, vào Relationships.  
+Thêm khóa ngoại, đặt tên FK_DKMH_maSV.  
+Chọn Primary key table: SinhVien (maSV), Foreign key table: DKMH (maSV).  
+Nhấn OK và lưu.  
+![Screenshot 2025-03-29 143805](https://github.com/user-attachments/assets/faa22a3b-9670-4389-ac69-df93ff45de72)  
+
+Ảnh 5:  
+chỉnh sửa một chỉ mục (Index) trên cột id_dk trong SQL Server Management Studio (SSMS), với thứ tự sắp xếp Ascending (tăng dần).  
+![Screenshot 2025-03-29 143842](https://github.com/user-attachments/assets/b7b5eadf-29eb-4fc5-9b4b-546089b60852)  
+
+Ảnh 6:  
+chỉnh sửa ràng buộc kiểm tra CK_DKMH trong SQL Server:  
+Biểu thức: ((DiemThi)>(0) AND (DiemThi)<(10))  
+Tùy chọn: Kiểm tra dữ liệu, áp dụng cho chèn, cập nhật, và bản sao.  
+![Screenshot 2025-03-29 144016](https://github.com/user-attachments/assets/711c353b-a4b4-4dac-b42a-9e043ba7c328)  
+
+Ảnh 7:  
+chỉnh sửa ràng buộc kiểm tra CK_DKMH_PhanTramTh trong SQL Server:  
+Biểu thức: ([PhanTramThi]>(0) AND [PhanTramThi]<(100))  
+Tùy chọn: Kiểm tra dữ liệu, áp dụng cho chèn, cập nhật, và bản sao.  
+![Screenshot 2025-03-29 144032](https://github.com/user-attachments/assets/9063fbd6-3b73-4a08-972c-bc5a5cb9fe81)  
+
+Ảnh 8:  
+![Screenshot 2025-03-29 144058](https://github.com/user-attachments/assets/7bf81739-3874-413d-a4b6-468b21d75f40)
+
+
