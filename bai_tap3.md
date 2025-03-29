@@ -30,3 +30,14 @@ HÌNH THỨC LÀM BÀI:
 DEADLINE: 23H59 NGÀY 30/03/2025
 
 ---------------------- hết bài tập 3-------------------------------------------
+Ảnh 1:  
+Chỉnh sửa bảng DKMH. id_dk là khóa chính   
+![Screenshot 2025-03-29 143518](https://github.com/user-attachments/assets/3aa3bd02-db78-4185-a1e8-349cf706f985)  
+
+Ảnh 2:  
+Thao tác tạo khóa ngoại FK_Diem_id_dk trong SQL Server Management Studio (SSMS) giữa bảng Diem và DKMH. Thực hiện như sau:  
+Mở Table Designer cho bảng Diem, vào Relationships.  
+Thêm khóa ngoại, đặt tên FK_Diem_id_dk.  
+Chọn Primary key table: DKMH (id_dk), Foreign key table: Diem (id_dk).  
+Nhấn OK và lưu.  
+![Screenshot 2025-03-29 143656](https://github.com/user-attachments/assets/f9fbab9a-65d6-4bc4-86d8-3f168d2bca70)  
